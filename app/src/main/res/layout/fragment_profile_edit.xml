@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProfileEditFragment"
+    android:background="@drawable/back01"
+    >
+
+    <!--Toolbar-->
+
+    <!--back button-->
+    <!--Title-->
+
+    <!--ShapeableInageView: profile image-->
+
+
+    <!--EditText: Input Name-->
+
+    <!--Button: update profile-->
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/shape_toolbar2"
+        app:layout_constraintTop_toTopOf="parent">
+        <!--Back button-->
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_back_white"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <!--Title-->
+        <TextView
+            android:id="@+id/edit_profile_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:text="Edit Profile"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+        <!--Profile edit button-->
+    </RelativeLayout>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profileIv"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_person_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nameTil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintEnabled="false"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/profileIv">
+
+        <EditText
+            android:id="@+id/nameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:drawableStart="@drawable/ic_person_gray"
+            android:drawablePadding="10dp"
+            android:hint="Name"
+            android:inputType="textPersonName|textCapWords"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray02" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="266dp"
+        android:layout_height="48dp"
+
+
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#6AB1B2"
+        android:text="Update"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/nameTil"
+        app:layout_constraintHorizontal_bias="0.359"
+        app:layout_constraintStart_toStartOf="@+id/nameTil"
+        app:layout_constraintTop_toBottomOf="@+id/nameTil" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

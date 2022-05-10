@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.bookfragment.fragments.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_betweenFragment"
+            app:destination="@id/betweenFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_dashboardUserFragment"
+            app:destination="@id/dashboardUserFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_dashboardAdminFragment"
+            app:destination="@id/dashboardAdminFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/betweenFragment"
+        android:name="com.example.bookfragment.fragments.BetweenFragment"
+        android:label="fragment_between"
+        tools:layout="@layout/fragment_between" >
+        <action
+            android:id="@+id/action_betweenFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_betweenFragment_to_dashboardUserFragment"
+            app:destination="@id/dashboardUserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.bookfragment.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment2"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_dashboardUserFragment"
+            app:destination="@id/dashboardUserFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_dashboardAdminFragment"
+            app:destination="@id/dashboardAdminFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_forgotFragment"
+            app:destination="@id/forgotFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.bookfragment.fragments.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashboardUserFragment"
+        android:name="com.example.bookfragment.fragments.DashboardUserFragment"
+        android:label="fragment_dashboard_user"
+        tools:layout="@layout/fragment_dashboard_user" >
+        <action
+            android:id="@+id/action_dashboardUserFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_dashboardUserFragment_to_moreDetailsPdfFragment"
+            app:destination="@id/moreDetailsPdfFragment" />
+        <action
+            android:id="@+id/action_dashboardUserFragment_to_betweenFragment"
+            app:destination="@id/betweenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashboardAdminFragment"
+        android:name="com.example.bookfragment.fragments.DashboardAdminFragment"
+        android:label="fragment_dashboard_admin"
+        tools:layout="@layout/fragment_dashboard_admin" >
+        <action
+            android:id="@+id/action_dashboardAdminFragment_to_betweenFragment"
+            app:destination="@id/betweenFragment" />
+        <action
+            android:id="@+id/action_dashboardAdminFragment_to_categoryAddFragment"
+            app:destination="@id/categoryAddFragment" />
+        <action
+            android:id="@+id/action_dashboardAdminFragment_to_bookAddFragment"
+            app:destination="@id/bookAddFragment" />
+        <action
+            android:id="@+id/action_dashboardAdminFragment_to_pdfListAdminFragment"
+            app:destination="@id/pdfListAdminFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryAddFragment"
+        android:name="com.example.bookfragment.fragments.CategoryAddFragment"
+        android:label="fragment_category_add"
+        tools:layout="@layout/fragment_category_add" >
+        <action
+            android:id="@+id/action_categoryAddFragment_to_dashboardAdminFragment"
+            app:destination="@id/dashboardAdminFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookAddFragment"
+        android:name="com.example.bookfragment.fragments.BookAddFragment"
+        android:label="fragment_book_add"
+        tools:layout="@layout/fragment_book_add" >
+        <action
+            android:id="@+id/action_bookAddFragment_to_dashboardAdminFragment"
+            app:destination="@id/dashboardAdminFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pdfListAdminFragment"
+        android:name="com.example.bookfragment.fragments.PdfListAdminFragment"
+        android:label="fragment_pdf_list_admin"
+        tools:layout="@layout/fragment_pdf_list_admin" >
+        <action
+            android:id="@+id/action_pdfListAdminFragment_to_pdfEditFragment"
+            app:destination="@id/pdfEditFragment" />
+        <action
+            android:id="@+id/action_pdfListAdminFragment_to_moreDetailsPdfFragment"
+            app:destination="@id/moreDetailsPdfFragment" />
+        <action
+            android:id="@+id/action_pdfListAdminFragment_to_dashboardAdminFragment"
+            app:destination="@id/dashboardAdminFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pdfEditFragment"
+        android:name="com.example.bookfragment.fragments.PdfEditFragment"
+        android:label="fragment_pdf_edit"
+        tools:layout="@layout/fragment_pdf_edit" />
+    <fragment
+        android:id="@+id/moreDetailsPdfFragment"
+        android:name="com.example.bookfragment.fragments.MoreDetailsPdfFragment"
+        android:label="fragment_more_details_pdf"
+        tools:layout="@layout/fragment_more_details_pdf" >
+        <action
+            android:id="@+id/action_moreDetailsPdfFragment_to_pdfViewerFragment"
+            app:destination="@id/pdfViewerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pdfViewerFragment"
+        android:name="com.example.bookfragment.fragments.PdfViewerFragment"
+        android:label="fragment_pdf_viewer"
+        tools:layout="@layout/fragment_pdf_viewer" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.bookfragment.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_profileEditFragment"
+            app:destination="@id/profileEditFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_dashboardUserFragment"
+            app:destination="@id/dashboardUserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileEditFragment"
+        android:name="com.example.bookfragment.fragments.ProfileEditFragment"
+        android:label="ProfileEditFragment" >
+        <action
+            android:id="@+id/action_profileEditFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotFragment"
+        android:name="com.example.bookfragment.fragments.ForgotFragment"
+        android:label="fragment_forgot"
+        tools:layout="@layout/fragment_forgot" >
+        <action
+            android:id="@+id/action_forgotFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+</navigation>

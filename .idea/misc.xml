@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sony/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_books_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sony/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_dashboard_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sony/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_forgot.xml" value="0.1046875" />
+        <entry key="..\:/Users/Sony/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_login.xml" value="0.1046875" />
+        <entry key="..\:/Users/Sony/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_more_details_pdf.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sony/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_pdf_list_admin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sony/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sony/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_profile_edit.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sony/AndroidStudioProjects/BookFragment/app/src/main/res/layout/row_reserved_books.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/book_layout.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/category_layout.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_between.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_book_add.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_books_user.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_category_add.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_dashboard_admin.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_dashboard_user.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_forgot.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_login.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_more_details_pdf.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_pdf_edit.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_pdf_list_admin.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_pdf_viewer.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_profile.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_profile_edit.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_register.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/BookFragment/app/src/main/res/layout/fragment_splash.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/drawable-v24/ic_pdf_white.xml" value="0.1" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/drawable-v24/shape_third_btn.xml" value="0.1" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/drawable/ic_attach_file.xml" value="0.1037037037037037" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/drawable/ic_attach_file_white.xml" value="0.1" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/drawable/ic_back_white.xml" value="0.1" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/drawable/ic_book_white.xml" value="0.1037037037037037" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/drawable/ic_description_gray.xml" value="0.1" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/drawable/ic_more_black.xml" value="0.1037037037037037" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/drawable/ic_save_white.xml" value="0.1037037037037037" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/drawable/shape_first_btn.xml" value="0.1125" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/drawable/shape_second_btn.xml" value="0.1125" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/drawable/shape_toolbar1.xml" value="0.1" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/drawable/shape_toolbar12.xml" value="0.1" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/drawable/shape_toolbar2.xml" value="0.1" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/layout/book_layout.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/layout/category_layout.xml" value="0.182518115942029" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_between.xml" value="0.1" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_book_add.xml" value="0.25" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_category_add.xml" value="0.33" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_dashboard_admin.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_dashboard_user.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_login.xml" value="0.22" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_more_details_pdf.xml" value="0.25" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_pdf_edit.xml" value="0.19067028985507245" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_pdf_list_admin.xml" value="0.25" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_pdf_viewer.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_register.xml" value="0.1" />
+        <entry key="..\:/Users/taoufiki/AndroidStudioProjects/BookFragment/app/src/main/res/layout/fragment_splash.xml" value="0.15" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

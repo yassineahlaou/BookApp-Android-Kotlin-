@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back01"
+    tools:context=".fragments.BookAddFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cons"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:background="@drawable/shape_toolbar12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btn_back1"
+            android:layout_width="62dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            app:layout_constraintHorizontal_bias="0.056"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_back_white"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="170dp"
+            android:layout_height="129dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.2"
+            app:srcCompat="@drawable/logo1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Add New Book"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintStart_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/ed_title"
+        style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+        android:layout_width="287dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/shape_edit_text1"
+        android:drawableStart="@drawable/ic_subtitles_gray"
+        android:ems="10"
+        android:hint="Book title"
+        android:inputType="textEmailAddress"
+        android:paddingStart="14dp"
+        android:textColor="#777777"
+        android:textColorHint="#C5C5C5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cons" />
+
+    <EditText
+        android:id="@+id/ed_description"
+        style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+        android:layout_width="287dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_edit_text1"
+        android:drawableStart="@drawable/ic_description_gray"
+        android:ems="10"
+        android:hint="Book description"
+        android:inputType="textEmailAddress"
+        android:paddingStart="14dp"
+        android:textColor="#777777"
+        android:textColorHint="#C5C5C5"
+        app:layout_constraintStart_toStartOf="@+id/ed_title"
+        app:layout_constraintTop_toBottomOf="@+id/ed_title" />
+
+
+    <EditText
+        android:id="@+id/ed_categorie"
+        style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+        android:layout_width="287dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_edit_text1"
+        android:drawableStart="@drawable/ic_categorie_gray"
+        android:drawableEnd="@drawable/ic_down_gray"
+        android:editable="false"
+        android:ems="10"
+        android:hint="Book category"
+        android:inputType="textEmailAddress"
+        android:paddingStart="14dp"
+        android:textColor="#777777"
+        android:textColorHint="#C5C5C5"
+        app:layout_constraintStart_toStartOf="@+id/ed_description"
+        app:layout_constraintTop_toBottomOf="@+id/ed_description" />
+
+    <Button
+        android:id="@+id/att_pdf"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@drawable/ic_attach_file"
+        android:paddingStart="60dp"
+        android:paddingEnd="60dp"
+        android:text="SELECT FILE"
+        android:textColor="#D48BB3"
+        app:layout_constraintStart_toStartOf="@+id/ed_categorie"
+        app:layout_constraintTop_toBottomOf="@+id/ed_categorie" />
+
+    <Button
+        android:id="@+id/btn_add_book"
+        android:layout_width="266dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#6AB1B2"
+        android:text="ADD"
+        app:layout_constraintEnd_toEndOf="@+id/att_pdf"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/att_pdf"
+        app:layout_constraintTop_toBottomOf="@+id/att_pdf" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

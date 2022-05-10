@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "469523633638",
+    "firebase_url": "https://bookfragment-default-rtdb.firebaseio.com",
+    "project_id": "bookfragment",
+    "storage_bucket": "bookfragment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469523633638:android:7f9293325ee858fe64b227",
+        "android_client_info": {
+          "package_name": "com.example.bookfragment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469523633638-8uvstdlejujlbahaf8uao59jfr33k0ct.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookfragment",
+            "certificate_hash": "1b585c136c0e40770877c937cdf87065deedee03"
+          }
+        },
+        {
+          "client_id": "469523633638-r3sdoj96647a444ojdhjo7ro06gt127v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA5QFg50J_B-25QAF3gYGUd4ujirQ43Uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469523633638-r3sdoj96647a444ojdhjo7ro06gt127v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back01"
+    tools:context=".fragments.LoginFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cons"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:background="@drawable/shape_toolbar12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="170dp"
+            android:layout_height="129dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.2"
+            app:srcCompat="@drawable/logo2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Plase Login"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintStart_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/ed_mail"
+        android:layout_width="287dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#C5C5C5"
+        android:textColor="#777777"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cons" />
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="287dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#c5c5c5"
+        android:textColor="#777777"
+        app:layout_constraintEnd_toEndOf="@+id/ed_mail"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/ed_mail"
+        app:layout_constraintTop_toBottomOf="@+id/ed_mail" />
+
+    <TextView
+        android:id="@+id/forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Forgot Password?"
+        android:textColor="#777777"
+        app:layout_constraintEnd_toEndOf="@+id/ed_password"
+        app:layout_constraintTop_toBottomOf="@+id/ed_password" />
+
+    <Button
+        android:id="@+id/btn_log"
+        android:layout_width="266dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#6AB1B2"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="@+id/ed_password"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/ed_password"
+        app:layout_constraintTop_toBottomOf="@+id/ed_password" />
+
+    <TextView
+        android:id="@+id/tv_without_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/new_user_sign_up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
